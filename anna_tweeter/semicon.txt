@@ -1,0 +1,1 @@
+put your text corpus here. You may want to scrub it for special characters first - I use cleaner.py, included in this directory.

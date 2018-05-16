@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html style="background: url(images/xray1.jpg) no-repeat center center fixed;">
+
+<head>
+<title>Anna (dom)</title>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="rita.min.js"></script>
+<script src="code.js"></script>
+<script src='responsivevoice.js'></script>
+
+<style>
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body, html {
+    height: 100%;
+	margin-top:0px;
+}
+.result {
+	float:left;
+	width: 400px;
+	background-color: rgb(250, 250, 250);
+	xxopacity:0.9;
+	margin-right:50px;
+	margin-left:50px;
+	padding-top:40px;
+	height:100%;
+	xxdisplay: flex;
+	xxdisplay: -webkit-flex;
+}
+
+.textarea {
+	font-family: Courier New, Courier, monospace;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	text-align:right;
+	opacity:1.0;
+	line-height: 24px;
+	font-size: 15px;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+.header {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	text-transform: uppercase;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	font-weight:bold;
+	text-align:right;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	clear:both;
+	width: 300px;
+}
+#image {
+	position:relative;
+	float:left;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	line-height: 20px;
+	width: 500px;
+	height: 500px;
+	margin-top:90px;
+	background-color: rgb(250, 250, 250);
+	opacity:0.8;
+}
+img {
+	width:100%;
+}
+.images {
+	opacity:1.0;
+}
+</style>
+</head>
+
+<body>
+	<div class="result">
+		<span class="header"></span>
+		<span class="textarea"></span>
+	</div>
+	<div id="image">
+		<img class="images" src="images/xray7.jpg">
+	</div>
+</body>
+</html>
