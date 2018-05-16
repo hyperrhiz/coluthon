@@ -1,6 +1,6 @@
 from unidecode import unidecode
 
-def fuckfunnies(text):
+def cleanfunnies(text):
 	return ''.join([i if ord(i) >= 32 and ord(i) < 127 else '' for i in text])
 
 
@@ -12,7 +12,7 @@ def remove_non_ascii(text):
     
 if __name__ == '__main__':
 	
-	with open('citations.txt') as f:
+	with open('semicon.txt') as f:
             text = f.read()
         with open('cleaned.txt', 'a') as f:
             f.write(remove_non_ascii(text))
